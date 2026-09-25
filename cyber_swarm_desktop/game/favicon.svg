@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+  <rect width="256" height="256" fill="#000000"/>
+  <defs>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <g filter="url(#glow)">
+    <polygon points="128,40 200,88 200,168 128,216 56,168 56,88" fill="none" stroke="#00FFFF" stroke-width="3"/>
+    <polygon points="128,70 175,98 175,158 128,186 81,158 81,98" fill="none" stroke="#00FFFF" stroke-width="2"/>
+    <circle cx="128" cy="128" r="18" fill="none" stroke="#00FFFF" stroke-width="2.5"/>
+    <line x1="128" y1="40" x2="128" y2="70" stroke="#00FFFF" stroke-width="2"/>
+    <line x1="128" y1="186" x2="128" y2="216" stroke="#00FFFF" stroke-width="2"/>
+    <line x1="200" y1="88" x2="175" y2="98" stroke="#00FFFF" stroke-width="2"/>
+    <line x1="200" y1="168" x2="175" y2="158" stroke="#00FFFF" stroke-width="2"/>
+    <line x1="56" y1="88" x2="81" y2="98" stroke="#00FFFF" stroke-width="2"/>
+    <line x1="56" y1="168" x2="81" y2="158" stroke="#00FFFF" stroke-width="2"/>
+    <circle cx="128" cy="128" r="4" fill="#00FFFF"/>
+    <circle cx="128" cy="40" r="3" fill="#00FFFF"/>
+    <circle cx="200" cy="88" r="3" fill="#00FFFF"/>
+    <circle cx="200" cy="168" r="3" fill="#00FFFF"/>
+    <circle cx="128" cy="216" r="3" fill="#00FFFF"/>
+    <circle cx="56" cy="168" r="3" fill="#00FFFF"/>
+    <circle cx="56" cy="88" r="3" fill="#00FFFF"/>
+  </g>
+</svg>
